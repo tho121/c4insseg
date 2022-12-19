@@ -7,3 +7,14 @@ The instance segmentation model is trained using the Detectron2 Go framework (ht
 
 
 The c4_d2go.ipynb notebook trains and exports the model for PyTorch Mobile as the d2go_mobile_opt.ptl file. Copy this file to the Android assets folder. 
+
+# Training Metrics
+
+Loss
+![image](https://user-images.githubusercontent.com/4165980/208512453-f35d4375-39ee-4a33-96ae-85eadf2965c4.png)
+
+Learning Rate
+![image](https://user-images.githubusercontent.com/4165980/208513238-80d999ad-2c14-4daa-9150-8613f6e0ee2a.png)
+
+Validation Metrics
+![image](https://user-images.githubusercontent.com/4165980/208513389-ac0690df-27a2-4ae3-b74a-ed6de4625a43.png)
