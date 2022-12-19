@@ -16,10 +16,10 @@ MODEL:
     IN_FEATURES: ["trunk3"]
     # Default values are 12000/2000 for train and 6000/1000 for test. In FBNet
     # we use smaller numbers.  TODO: reduce proposals for test in .yaml directly.
-    PRE_NMS_TOPK_TRAIN: 2000
-    POST_NMS_TOPK_TRAIN: 200
-    PRE_NMS_TOPK_TEST: 2000
-    POST_NMS_TOPK_TEST: 200
+    PRE_NMS_TOPK_TRAIN: 4000
+    POST_NMS_TOPK_TRAIN: 400
+    PRE_NMS_TOPK_TEST: 4000
+    POST_NMS_TOPK_TEST: 400
   ROI_HEADS:
     NAME: StandardROIHeads
     IN_FEATURES: ["trunk3"]
