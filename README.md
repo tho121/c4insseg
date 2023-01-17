@@ -1,8 +1,8 @@
-# c4insseg
-Train and export instance segmentation model using Detectron2 Go and export for mobile. Detects columns and colored pieces for Connect 4
+# Connect4 Action AI (Training Model)
+Train and export instance segmentation model using Detectron2 Go and export for mobile. Detects columns and colored pieces for Connect4. App implementation found at https://github.com/tho121/c4android
 
 
-This project aims to build an end-to-end pipeline for training an instance segmentation model to detect the state of a Connect 4 board and export it for PyTorch Mobile.
+This project aims to build an end-to-end pipeline for training an instance segmentation model to detect the state of a Connect4 board and export it for PyTorch Mobile.
 The instance segmentation model is trained using the Detectron2 Go framework (https://github.com/facebookresearch/d2go). Using the Faster-RCNN algorithm, the model is trained on a custom dataset of images taken from a Pixel 6 and resized to 510x384. Annotations are expected to be in the COCO format. This custom dataset was annotated manually using CVAT (https://www.cvat.ai/). After training, new images can be quickly annotated using label_from_predict.ipynb to generate more data. However, these annotations should not be perfect and should be uploaded to CVAT where they can be manually amended.
 
 
